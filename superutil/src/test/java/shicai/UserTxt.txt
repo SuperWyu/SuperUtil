@@ -1,0 +1,17 @@
+***************使用说明*****************************
+ChineseCalendar.java:
+	构造方法：1）public ChineseCalendar()——构造一个表示当前日期的农历日历 
+	      	  2）public ChineseCalendar(Date date)——构造一个表示指定日期的农历日历 
+		  3) public ChineseCalendar(Calendar cal)——使用指定日历日期构造一个农历日历
+	普通方法：1）public Date getDate()——获得表示农历年月日的日期对象
+		  2）public String toString()——返回格式:2015年"闰" : ""十月初七
+		  3）final public String animalsYear()——传回农历 y年的生肖
+		  4）final public String cyclical()——传回干支, 0=甲子
+		等。。。
+
+KMP.java：
+	普通方法：1）public static int serch(String txt,String pat)——txt 母串，pat 字串，return 返回字串首次出现的位置
+
+StreamTool.java：
+	普通方法：1）public static byte[] read(InputStream input) throws Exception——返回解析完后的字节数组
+
