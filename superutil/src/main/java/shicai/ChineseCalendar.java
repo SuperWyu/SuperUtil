@@ -7,8 +7,6 @@ import java.util.Date;
 
 /**
  * 农历(阴历)工具类 
- *
- *
  */
 public class ChineseCalendar {
     private int year;// 农历年  

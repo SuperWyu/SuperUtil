@@ -2,9 +2,7 @@ package util;
 
 /**
  * KMP查找算法
- * 
  * @author 世财
- * 
  * 示例
  * 		String string = "123123321321";
 		int index = KMP.serch(string, "33");
@@ -15,7 +13,6 @@ package util;
 public class KMP {
 
 	/**
-	 * 
 	 * @param pat
 	 *            子字符串
 	 * @return 返回子字符串的部分匹配值next[]

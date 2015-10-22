@@ -1,0 +1,22 @@
+/**
+  *各种Manager，按字母序号排列
+  *
+  */
+
+//输入法管理器，控制软键盘
+InputMethodManager inputMethodManager=(InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
+//包管理器，可获取包信息，版本号等
+PackageManager packageManager = context.getPackageManager();
+
+//WIFI管理器
+WifiManager wifi = (WifiManager)context.getSystemService(Context.WIFI_SERVICE);
+
+
+
+
+
+
+
+
+
