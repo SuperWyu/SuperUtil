@@ -15,3 +15,6 @@ KMP.java：
 StreamTool.java：
 	普通方法：1）public static byte[] read(InputStream input) throws Exception——返回解析完后的字节数组
 
+DiskLruCache.java:
+	硬盘缓存，使用方法见：http://blog.csdn.net/guolin_blog/article/details/28863651
+
